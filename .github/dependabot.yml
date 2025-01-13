@@ -4,9 +4,8 @@ updates:
     directory: "/javascript"
     versioning-strategy: "lockfile-only"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "23:45"
+      interval: "daily"
+      time: "00:00"
       timezone: "Asia/Tokyo"
     groups:
       javascript-dependencies:
@@ -16,9 +15,8 @@ updates:
     directory: "/ruby"
     versioning-strategy: "lockfile-only"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "23:45"
+      interval: "daily"
+      time: "00:00"
       timezone: "Asia/Tokyo"
     groups:
       ruby-dependencies:
