@@ -11,7 +11,7 @@ updates:
       javascript-dependencies:
         patterns:
           - "*"
-  - package-ecosystem: "ruby"
+  - package-ecosystem: "bundler"
     directory: "/ruby"
     schedule:
       interval: "weekly"
